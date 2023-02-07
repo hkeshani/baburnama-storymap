@@ -120,6 +120,8 @@ a.source:visited {
   text-align: left;
   font-family: "Lora", sans-serif;
   font-size: 14pt;
+  font-family: 'Hind Madurai', helvetica, arial, sans-serif;
+  font-weight: 300;
   padding: 20px;
   line-height: calc(1ex / 0.32);
 }

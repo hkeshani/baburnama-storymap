@@ -116,8 +116,9 @@ a.source:visited {
 .description {
   margin: 20px;
   text-align: left;
-  font-size: 11pt;
+  font-size: 14pt;
   padding: 20px;
+  line-height: calc(1ex / 0.32);
 }
 
 .in-focus {

@@ -190,7 +190,7 @@ $(window).on('load', function() {
           class: 'source'
         });
       } else {
-        source = $('<span>', {
+        source = $('<div>', {
           text: c['Media Credit'],
           class: 'source'
         });

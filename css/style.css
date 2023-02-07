@@ -52,7 +52,7 @@ body {
   margin: 0;
   padding: 0;
   visibility: hidden;
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -178,7 +178,6 @@ h1 {
 
 h2 {
   margin: 0;
-  font-family: "Lora";
   font-size: 1.1em;
   font-weight: normal;
 }

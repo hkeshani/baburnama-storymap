@@ -97,14 +97,15 @@ body {
 
 .chapter-header {
   display: block;
+  margin: 0 20px;
   text-align: center;
   font-family: "Itim";
   font-size: 1.8em;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 
 .source {
-  display: inline-block;
+  display: block;
   margin: 0 20px;
   font-family: "Helvetica", sans-serif;
   font-size: 9pt;

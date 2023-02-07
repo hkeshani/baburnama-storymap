@@ -52,6 +52,7 @@ body {
   margin: 0;
   padding: 0;
   visibility: hidden;
+  font-family: "Josefin Sans";
   font-weight: bold;
   text-align: center;
 }
@@ -171,13 +172,12 @@ a.source:visited {
 /* Storymap title & subtitle */
 h1 {
   margin: 0;
-  font-family: "Josefin Sans";
   font-size: 1.7em;
 }
 
 h2 {
   margin: 0;
-    font-family: "Lora";
+  font-family: "Lora";
   font-size: 1.1em;
   font-weight: normal;
 }

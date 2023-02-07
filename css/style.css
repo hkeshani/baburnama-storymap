@@ -103,6 +103,7 @@ body {
 }
 
 .source {
+  margin: 0 20px;
   font-size: 9pt;
   font-style: italic;
   color: gray;

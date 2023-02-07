@@ -97,11 +97,11 @@ body {
 
 .chapter-header {
   display: block;
-  margin: 0 20px;
+  margin: 5px 20px 5px;
   text-align: center;
   font-family: "Itim";
   font-size: 1.8em;
-  padding: 0 20px;
+  padding: 5px 20px 5px;
 }
 
 .source {

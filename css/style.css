@@ -110,12 +110,11 @@ body {
   text-align: left;
   font-family: "Helvetica", sans-serif;
   font-size: 9pt;
-  font-style: italic;
   color: gray;
   padding: 0 20px;
 }
 a.source:visited {
-  color: grey;
+  color: gray;
 }
 
 .description {

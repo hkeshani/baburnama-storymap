@@ -11,7 +11,7 @@ body {
   border-bottom: 3px solid orange;
   top: 0;
   left: 0;
-  filter: sepia(100%);
+  filter: sepia(60%);
 }
 
 #narration {

@@ -52,9 +52,10 @@ body {
   margin: 0;
   padding: 0;
   visibility: hidden;
-  font-family: "Itim";
+  font-family: "Josefin Sans";
   font-weight: bold;
   text-align: center;
+  color: #e0e1b6;
 }
 
 .chapter-container {

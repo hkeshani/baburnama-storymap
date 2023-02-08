@@ -13,7 +13,7 @@
     height: 100vh;
     border: 0;
     z-index: 0;
-    filter: sepia(100%);
+    filter: sepia(50%);
   }
 
   #title {

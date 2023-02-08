@@ -171,13 +171,13 @@ a.source:visited {
 #header {
   padding: 5px 0;
   text-align: center;
-  color: #333;
 }
 
 /* Storymap title & subtitle */
 h1 {
   margin: 0;
   font-size: 2.2em;
+  color: #e0e1b6;
 }
 
 h2 {

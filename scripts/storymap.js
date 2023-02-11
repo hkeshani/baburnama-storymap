@@ -284,7 +284,7 @@ $(window).on('load', function() {
       // Make title disappear on scroll
       if (currentPosition < 200) {
         
-        $('#title').css({'opacity', 1 - Math.min(1, currentPosition / 100)}, function(){if($('#title').css('opacity') <= 0) {$('#title').css('z-index') = 0}                             
+        $('#title').css({'opacity', 1 - Math.min(1, currentPosition / 100)}, function(){if($('#title').css('opacity') <= 0) {$('#title').css('z-index'), 0}                             
       }
 
       for (var i = 0; i < pixelsAbove.length - 1; i++) {

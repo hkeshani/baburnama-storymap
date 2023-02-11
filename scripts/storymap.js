@@ -285,19 +285,20 @@ $(window).on('load', function() {
       if (currentPosition < 200) {
         $('#title').css('opacity', 1 - Math.min(1, currentPosition / 100))
       }
-//, 'z-index': 0}
+
       for (var i = 0; i < pixelsAbove.length - 1; i++) {
 
         if ( currentPosition >= pixelsAbove[i]
           && currentPosition < (pixelsAbove[i+1] - 2 * chapterContainerMargin)
           && currentlyInFocus != i
-        ) {
+        ) {;
 
           // Update URL hash
           location.hash = i + 1;
 
           // Remove styling for the old in-focus chapter and
           // add it to the new active chapter
+          $('#title').css('z-index', 0)
           $('.chapter-container').removeClass("in-focus").addClass("out-focus");
           $('div#container' + i).addClass("in-focus").removeClass("out-focus");
 

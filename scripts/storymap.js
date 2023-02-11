@@ -283,7 +283,7 @@ $(window).on('load', function() {
 
       // Make title disappear on scroll
        if (currentPosition < 200) {
-        $('#title').css('opacity', 1 - Math.min(1, currentPosition / 100), function() {if ($('#title').css('opacity') <= 0) {console.log('foo')}})
+        $('#title').css('opacity', 1 - Math.min(1, currentPosition / 100), function() {if ($('#title').css('opacity') <= 0.5) {console.log('foo')}})
       }
      /* Trying to change #title z-index to 0 when opacity reaches 0 
       if (currentPosition < 200) {

@@ -292,7 +292,7 @@ $(window).on('load', function() {
       }
       if (window.console) console.log('foo');
       */
-      if ($('#title').css('opacity') <= 0) {console.log('foo')
+      if ($('#title').css('opacity') <= 0) {console.log('foo')}
       
       for (var i = 0; i < pixelsAbove.length - 1; i++) {
 

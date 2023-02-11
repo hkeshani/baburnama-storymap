@@ -298,7 +298,7 @@ $(window).on('load', function() {
 
           // Remove styling for the old in-focus chapter and
           // add it to the new active chapter
-          $('#title').css('z-index', 0);
+          // $('#title').css('z-index', 0);
           $('.chapter-container').removeClass("in-focus").addClass("out-focus");
           $('div#container' + i).addClass("in-focus").removeClass("out-focus");
 

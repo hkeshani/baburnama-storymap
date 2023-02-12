@@ -290,9 +290,9 @@ $(window).on('load', function() {
         $('#title').css({'opacity': 1 - Math.min(1, currentPosition / 100)}, function() {
           if ($('#title').css('opacity') <= 0) {$('#title').css('z-index'): 0})
       }
-      if (window.console) console.log('foo');
+      if (window.console) console.log('foo'); 
       */
-      if ($('#title').css('opacity') == 0) {console.log('foo'); $('#title').css('z-index'), "0"}
+      if ($('#title').css('opacity') == 0) {$('#title').css('z-index'), "0"}
       
       for (var i = 0; i < pixelsAbove.length - 1; i++) {
 

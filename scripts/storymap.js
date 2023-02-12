@@ -294,7 +294,7 @@ $(window).on('load', function() {
       
       $(this).parent().css('z-index', 3000);
       */
-      if ($('#title').css('opacity') == 0) {$('#title').css('z-index', 0)}
+      if ($('#title').css('opacity') == 0) {$('#title').css('z-index', 0)} else {$('#title').css('z-index', 100)}
       
       for (var i = 0; i < pixelsAbove.length - 1; i++) {
 

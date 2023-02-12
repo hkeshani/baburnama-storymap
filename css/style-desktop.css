@@ -9,7 +9,7 @@
 
   #map {
     width: 40vw;
-    /*left: 40vw;*/
+    right: 0;
     height: 100vh;
     border: 0;
     z-index: 0;

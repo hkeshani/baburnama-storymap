@@ -285,15 +285,7 @@ $(window).on('load', function() {
        if (currentPosition < 200) {
         $('#title').css('opacity', 1 - Math.min(1, currentPosition / 100))
       }
-     /* Trying to change #title z-index to 0 when opacity reaches 0 
-      if (currentPosition < 200) {
-        $('#title').css({'opacity': 1 - Math.min(1, currentPosition / 100)}, function() {
-          if ($('#title').css('opacity') <= 0) {$('#title').css('z-index'): 0})
-      }
-      if (window.console) console.log('foo'); 
-      
-      $(this).parent().css('z-index', 3000);
-      */
+ 
       if ($('#title').css('opacity') == 0) {$('#title').css('z-index', 0)} else {$('#title').css('z-index', 100)}
       
       for (var i = 0; i < pixelsAbove.length - 1; i++) {

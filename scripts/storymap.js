@@ -274,7 +274,7 @@ $(window).on('load', function() {
     // For each block (chapter), calculate how many pixels above it
     pixelsAbove[0] = -100;
     for (i = 1; i < chapters.length; i++) {
-      pixelsAbove[i] = pixelsAbove[i-1] + $('div#container' + (i-1)).height() + chapterContainerMargin;
+      pixelsAbove[i] = pixelsAbove[i-1] + $('div#container' + (i-1)).scrollHeight() + chapterContainerMargin;
     }
     pixelsAbove.push(Number.MAX_VALUE);
 

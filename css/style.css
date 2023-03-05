@@ -133,11 +133,11 @@ a.source:visited {
 .in-focus {
   opacity: 1.0;
 }
-
+/*
 .out-focus {
   opacity: 0.3;
 }
-
+*/
 .leaflet-control-attribution {
   visibility: hidden;
 }

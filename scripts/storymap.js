@@ -147,7 +147,7 @@ $(window).on('load', function() {
         var lat = parseFloat(c['Latitude']);
         var lon = parseFloat(c['Longitude']);
 
-        chapterCount += 1; consol.log("chapter: "chapterCount);
+        chapterCount += 1; console.log("chapter: "chapterCount);
 
         markers.push(
           L.marker([lat, lon], {

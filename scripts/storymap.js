@@ -141,7 +141,7 @@ $(window).on('load', function() {
     var geoJsonOverlay;
 
     for (i in chapters) {
-      var c = chapters[i]; console.log("chapter: "chapters[i]);
+      var c = chapters[i]; console.log("chapter:"chapters);
 
       if ( !isNaN(parseFloat(c['Latitude'])) && !isNaN(parseFloat(c['Longitude']))) {
         var lat = parseFloat(c['Latitude']);

@@ -274,7 +274,7 @@ $(window).on('load', function() {
     // For each block (chapter), calculate how many pixels above it
     pixelsAbove[0] = -100;
     for (i = 1; i < chapters.length; i++) {
-      pixelsAbove[i] = pixelsAbove[i-1] + $('div#container' + (i-1)).height() + chapterContainerMargin; console.log("pixelsAbove: "pixelsAbove[i]);
+      pixelsAbove[i] = pixelsAbove[i-1] + $('div#container' + (i-1)).height() + chapterContainerMargin; console.log("pixelsAbove: "pixelsAbove[i]); console.log("pixelsAbove: "pixelsAbove[i]);
     }
     pixelsAbove.push(Number.MAX_VALUE);
 
@@ -293,7 +293,7 @@ $(window).on('load', function() {
         if ( currentPosition >= pixelsAbove[i]
           && currentPosition < (pixelsAbove[i+1] - 2 * chapterContainerMargin)
           && currentlyInFocus != i
-        ) {;
+        ) {; console.log("currentPosition: "currentPosition);
 
           // Update URL hash
           location.hash = i + 1;

@@ -141,13 +141,13 @@ $(window).on('load', function() {
     var geoJsonOverlay;
 
     for (i in chapters) {
-      var c = chapters[i]; console.log(chapters);
+      var c = chapters[i]; console.log(c);
 
       if ( !isNaN(parseFloat(c['Latitude'])) && !isNaN(parseFloat(c['Longitude']))) {
         var lat = parseFloat(c['Latitude']);
         var lon = parseFloat(c['Longitude']);
 
-        chapterCount += 1; console.log("chapter: "chapterCount);
+        chapterCount += 1; console.log(chapterCount);
 
         markers.push(
           L.marker([lat, lon], {
@@ -274,7 +274,7 @@ $(window).on('load', function() {
     // For each block (chapter), calculate how many pixels above it
     pixelsAbove[0] = -100;
     for (i = 1; i < chapters.length; i++) {
-      pixelsAbove[i] = pixelsAbove[i-1] + $('div#container' + (i-1)).height() + chapterContainerMargin; console.log("pixelsAbove: "pixelsAbove[i]); console.log("pixelsAbove: "pixelsAbove[i]);
+      pixelsAbove[i] = pixelsAbove[i-1] + $('div#container' + (i-1)).height() + chapterContainerMargin; console.log("pixelsAbove: "pixelsAbove[i]); console.log(pixelsAbove[i]);
     }
     pixelsAbove.push(Number.MAX_VALUE);
 

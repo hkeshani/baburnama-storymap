@@ -293,7 +293,7 @@ $(window).on('load', function() {
         if ( currentPosition >= pixelsAbove[i]
           && currentPosition < (pixelsAbove[i+1] - 2 * chapterContainerMargin)
           && currentlyInFocus != i
-        ) {; console.log("currentPosition: "currentPosition);
+        ) {; console.log(currentPosition);
 
           // Update URL hash
           location.hash = i + 1;

@@ -8,7 +8,7 @@ body.lb-disable-scrolling {
   left: 0;
   z-index: 9999;
   background-color: black;
-  /*filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);*/
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90, Blur=4px);
   opacity: 0.9;
   filter: blur(4px);
   display: none;
@@ -52,7 +52,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: #23396b; /*white*/
+  background-color: rgba(0, 0, 0, 0.9); /*white*/
 }
 
 .lb-outerContainer:after {

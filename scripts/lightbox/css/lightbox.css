@@ -42,8 +42,8 @@ body.lb-disable-scrolling {
 .lb-outerContainer {
   position: relative;
   *zoom: 1;
-  width: 400px; /*250*/
-  height: 400px; /*250*/
+  width: auto; /*250*/
+  height: 90vh; /*250*/
   margin: 0 auto;
   border-radius: 0px; /*4px*/
 

@@ -9,7 +9,6 @@ body.lb-disable-scrolling {
   z-index: 9999;
   background-color: black;
   opacity: 0.9;
-  filter: blur(5px);
   display: none;
 }
 

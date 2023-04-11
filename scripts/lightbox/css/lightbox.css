@@ -9,7 +9,7 @@ body.lb-disable-scrolling {
   z-index: 9999;
   background-color: black;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  opacity: 0.6;
   display: none;
 }
 
@@ -42,8 +42,8 @@ body.lb-disable-scrolling {
 .lb-outerContainer {
   position: relative;
   *zoom: 1;
-  width: 350px; /*250*/
-  height: 350px; /*250*/
+  width: 400px; /*250*/
+  height: 400px; /*250*/
   margin: 0 auto;
   border-radius: 0px; /*4px*/
 

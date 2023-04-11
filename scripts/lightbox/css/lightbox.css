@@ -52,7 +52,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: transparent; /*white*/
+  background-color: black; /*white*/
 }
 
 .lb-outerContainer:after {

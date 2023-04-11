@@ -8,9 +8,8 @@ body.lb-disable-scrolling {
   left: 0;
   z-index: 9999;
   background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90, Blur=4px);
   opacity: 0.9;
-  filter: blur(4px);
+  filter: blur(5px);
   display: none;
 }
 
@@ -32,8 +31,8 @@ body.lb-disable-scrolling {
   max-height: none;
   border-radius: 0px; /*3px*/
 
-  /* Image border 4px*/
-  border: 0px solid white;
+  /* Image border */
+  border: 0px solid white; /* 4px */
 }
 
 .lightbox a img {
@@ -52,7 +51,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: rgba(0, 0, 0, 0.9); /*white*/
+  background-color: rgba(0, 0, 0, 0.7); /*white*/
 }
 
 .lb-outerContainer:after {

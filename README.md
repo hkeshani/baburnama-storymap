@@ -1,5 +1,5 @@
 # IN BABUR'S FOOTSTEPS: A Baburnama Storymap - BL Or 3714
-n Babur's Footsteps is a storymap project that follows the journey made from Central Asia to North India by Babur (d. 1530) - the founder of the Mughal Empire.
+In Babur's Footsteps is a storymap project that follows the journey made from Central Asia to North India by Babur (d. 1530) - the founder of the Mughal Empire.
 
 ## Credits (and licenses)
 Based on Hands on Dataviz code developed by [Ilya Ilyankou](https://github.com/ilyankou) and [Jack Dougherty](https://github.com/jackdougherty) with support from Connecticut Humanities and Trinity College, CT. Inspired by Code for Atlanta mapsfor.us (2016) https://github.com/codeforatlanta/mapsforus (BSD-3-Clause). Adapted from MUX Lab, Map Effects 100: https://github.com/muxlab/map-effects-100, see http://muxlab.github.io/map-effects-100/Leaflet/11_scroll-driven-map-navigation.html.
